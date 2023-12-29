@@ -29,7 +29,7 @@
           {
             "id": 3,
             "department": "Department X",
-            "calendarDates": []
+            "calendarDates": [ {"id": 1, "dates": "01/19/2024", "item": "Peace Meeting"}]
           },
           {
             "id": 4,
