@@ -45,6 +45,13 @@
                                 "classNameSx": "image-container img-five",
                                 "color": "#15676c",
                                 "overLayColor": ""
+                            },
+                            {
+                                "id": 6,
+                                "item": "Tips",
+                                "classNameSx": "image-container img-six",
+                                "color": "#15676c",
+                                "overLayColor": ""
                             }
                         ],
                         "calendarDates": [
@@ -98,6 +105,13 @@
                                 "classNameSx": "image-container img-five",
                                 "color": "#15676c",
                                 "overLayColor": ""
+                            },
+                            {
+                                "id": 6,
+                                "item": "Tips",
+                                "classNameSx": "image-container img-six",
+                                "color": "#15676c",
+                                "overLayColor": ""
                             }
                         ],
                         "calendarDates": []
@@ -146,6 +160,13 @@
                                 "classNameSx": "image-container img-five",
                                 "color": "#15676c",
                                 "overLayColor": ""
+                            },
+                            {
+                                "id": 6,
+                                "item": "Tips",
+                                "classNameSx": "image-container img-six",
+                                "color": "#15676c",
+                                "overLayColor": ""
                             }
                         ],
                         "calendarDates": [
@@ -192,6 +213,13 @@
                                 "id": 5,
                                 "item": "Reminders",
                                 "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 6,
+                                "item": "Tips",
+                                "classNameSx": "image-container img-six",
                                 "color": "#15676c",
                                 "overLayColor": ""
                             }
@@ -259,6 +287,13 @@
                                 "classNameSx": "image-container img-five",
                                 "color": "#15676c",
                                 "overLayColor": ""
+                            },
+                            {
+                                "id": 6,
+                                "item": "Tips",
+                                "classNameSx": "image-container img-six",
+                                "color": "#15676c",
+                                "overLayColor": ""
                             }
                         ],
                         "calendarDates": [
@@ -277,6 +312,50 @@
                     {
                         "id": 2,
                         "department": "Public Works",
+                        "posts": [
+                            {
+                                "id": 1,
+                                "item": "Notices & Announcements",
+                                "classNameSx": "image-container img-one",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 2,
+                                "item": "Election Information",
+                                "classNameSx": "image-container img-two",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 3,
+                                "item": "Alerts",
+                                "classNameSx": "image-container img-three",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 4,
+                                "item": "Employment",
+                                "classNameSx": "image-container img-four",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 5,
+                                "item": "Reminders",
+                                "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 6,
+                                "item": "Jobs",
+                                "classNameSx": "image-container img-six",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            }
+                        ],
                         "calendarDates": [
                             {
                                 "id": 1,
@@ -327,6 +406,13 @@
                                 "id": 5,
                                 "item": "Reminders",
                                 "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 6,
+                                "item": "Tips",
+                                "classNameSx": "image-container img-six",
                                 "color": "#15676c",
                                 "overLayColor": ""
                             }
