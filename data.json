@@ -1,84 +1,340 @@
 [
-  {
-    "id": 1,
-    "state": "Alabama",
-    "counties": [
-      {
+    {
         "id": 1,
-        "county": "Autauga County",
-        "departments": [
-          {
-            "id": 1,
-            "department": "Auditor Department",
-            "calendarDates": [
-              {"id": 1, "dates": "12/19/2023", "item": "Meeting"},
-              {"id": 2, "dates": "12/20/2023", "item": "A good father Day"}
-            ]
-          },
-          {
-            "id": 2,
-            "department": "Department B",
-            "calendarDates": []
-          }
+        "state": "Alabama",
+        "counties": [
+            {
+                "id": 1,
+                "county": "Autauga County",
+                "departments": [
+                    {
+                        "id": 1,
+                        "department": "Auditor Department",
+                        "posts": [
+                            {
+                                "id": 1,
+                                "item": "Notices & Announcements",
+                                "classNameSx": "image-container img-one",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 2,
+                                "item": "Election Information",
+                                "classNameSx": "image-container img-two",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 3,
+                                "item": "Alerts",
+                                "classNameSx": "image-container img-three",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 4,
+                                "item": "Employment",
+                                "classNameSx": "image-container img-four",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 5,
+                                "item": "Reminders",
+                                "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            }
+                        ],
+                        "calendarDates": [
+                            {
+                                "id": 1,
+                                "dates": "12/19/2023",
+                                "item": "Meeting"
+                            },
+                            {
+                                "id": 2,
+                                "dates": "12/20/2023",
+                                "item": "A good father Day"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "department": "Department B",
+                        "posts": [
+                            {
+                                "id": 1,
+                                "item": "Notices & Announcements",
+                                "classNameSx": "image-container img-one",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 2,
+                                "item": "Election Information",
+                                "classNameSx": "image-container img-two",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 3,
+                                "item": "Alerts",
+                                "classNameSx": "image-container img-three",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 4,
+                                "item": "Employment",
+                                "classNameSx": "image-container img-four",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 5,
+                                "item": "Reminders",
+                                "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            }
+                        ],
+                        "calendarDates": []
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "county": "Baldwin County",
+                "departments": [
+                    {
+                        "id": 3,
+                        "department": "Department X",
+                        "posts": [
+                            {
+                                "id": 1,
+                                "item": "Notices & Announcements",
+                                "classNameSx": "image-container img-one",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 2,
+                                "item": "Election Information",
+                                "classNameSx": "image-container img-two",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 3,
+                                "item": "Alerts",
+                                "classNameSx": "image-container img-three",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 4,
+                                "item": "Employment",
+                                "classNameSx": "image-container img-four",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 5,
+                                "item": "Reminders",
+                                "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            }
+                        ],
+                        "calendarDates": [
+                            {
+                                "id": 1,
+                                "dates": "01/19/2024",
+                                "item": "Peace Meeting"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "department": "Department Y",
+                        "posts": [
+                            {
+                                "id": 1,
+                                "item": "Notices & Announcements",
+                                "classNameSx": "image-container img-one",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 2,
+                                "item": "Election Information",
+                                "classNameSx": "image-container img-two",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 3,
+                                "item": "Alerts",
+                                "classNameSx": "image-container img-three",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 4,
+                                "item": "Employment",
+                                "classNameSx": "image-container img-four",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 5,
+                                "item": "Reminders",
+                                "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            }
+                        ],
+                        "calendarDates": [
+                            {
+                                "id": 1,
+                                "dates": "12/19/2023",
+                                "item": "Meeting"
+                            },
+                            {
+                                "id": 2,
+                                "dates": "12/20/2023",
+                                "item": "A good father Day"
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
+    },
+    {
         "id": 2,
-        "county": "Baldwin County",
-        "departments": [
-          {
-            "id": 3,
-            "department": "Department X",
-            "calendarDates": [ {"id": 1, "dates": "01/19/2024", "item": "Peace Meeting"}]
-          },
-          {
-            "id": 4,
-            "department": "Department Y",
-            "calendarDates": [
-              {"id": 1, "dates": "12/19/2023", "item": "Meeting"},
-              {"id": 2, "dates": "12/20/2023", "item": "A good father Day"}
-            ]
-          }
+        "state": "Iowa",
+        "counties": [
+            {
+                "id": 1,
+                "county": "Adair County",
+                "departments": [
+                    {
+                        "id": 1,
+                        "department": "County Office",
+                        "posts": [
+                            {
+                                "id": 1,
+                                "item": "Notices & Announcements",
+                                "classNameSx": "image-container img-one",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 2,
+                                "item": "Election Information",
+                                "classNameSx": "image-container img-two",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 3,
+                                "item": "Alerts",
+                                "classNameSx": "image-container img-three",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 4,
+                                "item": "Employment",
+                                "classNameSx": "image-container img-four",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 5,
+                                "item": "Reminders",
+                                "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            }
+                        ],
+                        "calendarDates": [
+                            {
+                                "id": 1,
+                                "dates": "12/19/2023",
+                                "item": "County Council Meeting"
+                            },
+                            {
+                                "id": 2,
+                                "dates": "12/20/2023",
+                                "item": "Community Event"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "department": "Public Works",
+                        "calendarDates": [
+                            {
+                                "id": 1,
+                                "dates": "12/21/2023",
+                                "item": "Road Maintenance"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "county": "Adams County",
+                "departments": [
+                    {
+                        "id": 3,
+                        "department": "Sheriff's Office",
+                        "posts": [
+                            {
+                                "id": 1,
+                                "item": "Notices & Announcements",
+                                "classNameSx": "image-container img-one",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 2,
+                                "item": "Election Information",
+                                "classNameSx": "image-container img-two",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 3,
+                                "item": "Alerts",
+                                "classNameSx": "image-container img-three",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 4,
+                                "item": "Employment",
+                                "classNameSx": "image-container img-four",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            },
+                            {
+                                "id": 5,
+                                "item": "Reminders",
+                                "classNameSx": "image-container img-five",
+                                "color": "#15676c",
+                                "overLayColor": ""
+                            }
+                        ],
+                        "calendarDates": []
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "state": "Iowa",
-    "counties": [
-      {
-        "id": 1,
-        "county": "Adair County",
-        "departments": [
-          {
-            "id": 1,
-            "department": "County Office",
-            "calendarDates": [
-              {"id": 1, "dates": "12/19/2023", "item": "County Council Meeting"},
-              {"id": 2, "dates": "12/20/2023", "item": "Community Event"}
-            ]
-          },
-          {
-            "id": 2,
-            "department": "Public Works",
-            "calendarDates": [
-              {"id": 1, "dates": "12/21/2023", "item": "Road Maintenance"}
-            ]
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "county": "Adams County",
-        "departments": [
-          {
-            "id": 3,
-            "department": "Sheriff's Office",
-            "calendarDates": []
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]
